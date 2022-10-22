@@ -139,3 +139,23 @@ cite{
     display: block;
     text-align: right;
 }
+
+.sign-up{
+    height: 325px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    background: rgb(56, 56, 217);
+    height: 150px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.sign-up-container h3{
+    font-size: 22px;
+    font-weight:400;
+}

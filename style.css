@@ -20,7 +20,7 @@ body {
     margin: 0 auto;
 }
 
-header{
+header,footer{
     background-image: url(images/pexels-philippe-donn-1169754.jpg);
     background-repeat: no-repeat;
     background-size: 1000px 600px;
@@ -172,4 +172,12 @@ cite{
     border-radius: 10px;
     padding: 10px 22px;
     margin-left: 40px;
+}
+footer{
+    height: 100px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }

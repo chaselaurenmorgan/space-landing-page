@@ -151,11 +151,15 @@ cite{
 .sign-up-container {
     background: rgb(56, 56, 217);
     height: 150px;
-    width: 800px;
+    width: 850px;
     border-radius: 10px;
+    padding: 35px 50px;
 }
 
 .sign-up-container h3{
     font-size: 22px;
-    font-weight:400;
+}
+
+.sign-up-container p {
+    font-weight: 300;
 }

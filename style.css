@@ -91,14 +91,15 @@ span{
 }
 
 .information {
-    height: 500px;
+    height: 475px;
     background-color: whitesmoke;
     color: black;
 }
 
 .information-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
 }
 
 .information h2{
@@ -108,12 +109,16 @@ span{
 }
 
 .information-box{
-    max-width: 200px;
-    text-align: center;
+    max-width: 150px;
 }
 
+.information-box p {
+    font-size: 16px;
+}
+
+
 .information-box img{
-    max-width: 100px;
+    max-width: 150px;
     max-height: 150px;
     border: 2px solid black;
     border-radius: 20px;

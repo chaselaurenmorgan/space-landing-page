@@ -21,9 +21,13 @@ body {
     margin: 0 auto;
 }
 
+header{
+    background-image: url(images/pexels-philippe-donn-1169754.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 600px;
+}
 .nav{
     height: 125px;
-    border: 2px solid limegreen;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,4 +50,9 @@ span{
     font-size: 22px;
     text-decoration: none;
     color: whitesmoke;
+}
+
+.hero-container{
+    height: 400px;
+    border: 2px solid limegreen;
 }

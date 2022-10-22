@@ -101,6 +101,10 @@ span{
     text-align: center;
 }
 
+.information-box{
+    max-width: 200px;
+}
+
 .information-box img{
     max-width: 100px;
     max-height: 150px;

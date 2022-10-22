@@ -24,6 +24,7 @@ header{
     background-image: url(images/pexels-philippe-donn-1169754.jpg);
     background-repeat: no-repeat;
     background-size: 1000px 600px;
+
 }
 .nav{
     height: 125px;
@@ -90,19 +91,25 @@ span{
 }
 
 .information {
-    border: 2px solid limegreen;
     height: 500px;
     background-color: whitesmoke;
     color: black;
 }
 
+.information-container{
+    display: flex;
+    justify-content: space-around;
+}
+
 .information h2{
     font-size: 38px;
     text-align: center;
+    padding: 40px 0;
 }
 
 .information-box{
     max-width: 200px;
+    text-align: center;
 }
 
 .information-box img{

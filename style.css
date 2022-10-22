@@ -157,9 +157,19 @@ cite{
 }
 
 .sign-up-container h3{
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .sign-up-container p {
     font-weight: 300;
+}
+
+.sign-up-container button {
+    background: rgb(56, 56, 217) ;
+    color: whitesmoke;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px 22px;
+    margin-left: 40px;
 }

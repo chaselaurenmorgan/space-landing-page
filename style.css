@@ -88,3 +88,22 @@ span{
     color: whitesmoke;
     border: none;
 }
+
+.information {
+    border: 2px solid limegreen;
+    height: 400px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.information h2{
+    font-size: 38px;
+    text-align: center;
+}
+
+.information-box img{
+    max-width: 200px;
+    max-height: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
